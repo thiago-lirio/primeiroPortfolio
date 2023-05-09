@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    list-style: none;
+    font-family: "Nunito Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(27,0,43,1) 35%, rgba(39,0,66,1) 100%);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+.cabecalho{
+    position: relative;
+    width: 940px;
+    height: 50px;
+    margin: 0 auto;
+}
+.logo{
+    position: absolute;
+    top: 5px;
+}
+.logo i{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.logo i:hover{
+    background-color: purple;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+nav {
+	position: absolute;
+	top: 14px;
+	right: 200px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+    color: whitesmoke;
+    font-size: 18px;
+    margin: 1rem;
+    cursor: pointer
+    
+}
+
+nav a:hover {
+    color: purple;
+    transition: 0.3s all;
+}
+
+.localizacaoBotao{
+    position: absolute;
+	top: 7px;
+	right: 20px;
+}
+
+.btContato {
+    color: whitesmoke;
+    background: transparent;
+    border: solid 1px whitesmoke;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 18px;
+    width: 150px;
+    cursor: pointer;
+    
+}
+
+.btContato:hover{
+    background-color: purple;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+.apresentacaoInicial{
+    background-color: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(27,0,43,1) 35%, rgba(39,0,66,1) 100%);
+    background-image: url("Thiago.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.apresentacao{
+    padding: 200px 0px 0px 200px;
+}
+
+.apresentacao h3{
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+.apresentacao h1{
+    color: whitesmoke;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.apresentacao span{
+    color: rgb(164, 146, 177);
+}
+
+.apresentacao p{
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.redesSociais{
+    margin: 10px 0px 10px 0px;
+}
+
+.redesSociais a{
+    color: rgb(164, 146, 177);
+    padding: 10px 20px 10px 0;
+    
+}
+
+.btSobre{
+    color: whitesmoke;
+    background: transparent;
+    border: solid 1px whitesmoke;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 18px;
+    width: 150px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btSobre:hover{
+    background-color: purple;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+.sobreMim{
+    background: linear-gradient(#FFFFFF, whitesmoke);
+}
+
+
+.tituloSobreMim{
+    padding: 1em 0;
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+}
+.caixaSobreMim{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.localizacaoAvatar{
+    width: 35%;
+    display: inline-block;
+    padding: 0 0 0 100px;
+}
+.avatar {
+    background: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(39,0,66,1);
+    border-radius: 460px;
+    max-height: 300px;    
+  }
+
+.textoSobreMim{
+    text-align: justify;
+    width: 40%;
+    color: gray;
+    display: inline-block;
+    margin-left: 100px; 
+    
+}
+
+.textoSobreMim p{
+    padding: 0.5em 0 1em;
+}
+
+.projetos{
+    background: whitesmoke;
+}
+
+.tituloProjetos{
+    padding: 1em 0 0.5em;
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+}
+
+.subTituloProjetos{
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+    padding: 0 0 0.5em;
+}
+
+.projetosPrincipais{
+    text-align: center;
+}
+
+.barbeariaAlura{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    color: gray;
+}
+
+.barbeariaAlura h1{
+    font-size: 18px;
+}
+
+.barbeariaAlura iframe{
+    padding: 1em 0 1em;
+}
+
+.projetoTCC{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    color: gray;
+}
+
+.projetoTCC h1{
+    font-size: 18px;
+}
+
+.projetoTCC iframe{
+    padding: 1em 0 1em;
+}
+
+.imersaoDev{
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.subTituloImersaoDev{
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+    padding: 0.5em 0 0.5em;
+}
+
+.portfolio, .superTrunfo, .tabelaDeClassificacao, .Mentalista{
+    width: 20%;
+    display: inline-block;
+    justify-content: center;
+    
+}
+
+.imagemPortfolio, .imagemSuperTrunfo, .imagemTabelaClassificacao, .imagemMentalista{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.imagemPortfolio, .imagemSuperTrunfo, .imagemTabelaClassificacao, .imagemMentalista:hover{
+    cursor: pointer;
+}
+
+
+.Mentalista h2{
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    padding: 1em 0 1em;
+}
+
+.portfolio h2{
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    padding: 1em 0 1em;
+}
+
+.superTrunfo h2{
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    padding: 1em 0 1em;
+}
+
+.tabelaDeClassificacao h2{
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    padding: 1em 0 1em;
+}
+
+
+footer {
+	text-align: center;
+	background: linear-gradient(rgba(0,0,0,1) 0%, rgba(27,0,43,1) 35%, rgba(39,0,66,1) 100%);;
+	padding: 40px 0;
+}
+
+.avatarFooter{
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 460px;
+    max-height: 100px; 
+}
+
+footer p{
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+}
+
+
+
+
+
+  
+
+
+
